@@ -1,9 +1,10 @@
-# TITLE OF PROJECT 
-#### Independent project #3 for Epicodus
-#### Project initiated: 01-22-2021
+# Galactic Age Calculator  
+#### Independent project #5 for Epicodus
+#### Project initiated: 03-11-2021
 #### By Sofia Acosta
 ## Project Description
-This is my indepentent project to showcase the lesson learned last week: Arrays and Loops. It is an application that will take a number from a user and will return a range of numbers and statements using arrays and loops. A user should be able to enter a new number and see different results over and over again.
+This is my indepentent project to showcase the lesson learned on the past couple of weeks: Test Driven Development and Environment with Javascript. This is an application that determines a user's age based on a planet's solar years.    
+
 ## Specs
  
 ```
@@ -28,13 +29,13 @@ This is my indepentent project to showcase the lesson learned last week: Arrays 
 
 
 ## Set up / Installation requirements
-* Download a .zip copy of this repository: LINK TO GITHUB by clicking the green "code" button. 
+* Download a .zip copy of this repository: https://github.com/Sofacosta/galactic-age-calculator by clicking the green "code" button. 
 * Launch the index.html file into your browser
  
 OR
  
 * Open your terminal and navigate to the folder where you would like to save this project
-* Clone this repository in your terminal: $ git clone
+* Clone this repository in your terminal: $ git clone https://github.com/Sofacosta/galactic-age-calculator
 ## Known Bugs
 * No known bugs
 ## Notes
