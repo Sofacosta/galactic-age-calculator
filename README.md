@@ -4,12 +4,6 @@
 #### By Sofia Acosta
 ## Project Description
 This is my indepentent project to showcase the lesson learned on the past couple of weeks: Test Driven Development and Environment with Javascript. This is an application that determines a user's age based on a planet's solar years.    
-
-## Specs
- 
-```
-
- ```
  
 ## Technologies Used
 * HTML5 
@@ -38,8 +32,6 @@ OR
 * Clone this repository in your terminal: $ git clone https://github.com/Sofacosta/galactic-age-calculator
 ## Known Bugs
 * No known bugs
-## Notes
-* 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta

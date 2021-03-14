@@ -17,7 +17,7 @@ export class Calculator {
       mars: this.age / mars,
       jupiter: this.age / jupiter,
     };
-    console.log(planetAge);
+
     return planetAge;
   }
   planetExpectancyCalculator(planetAge) {
@@ -27,9 +27,10 @@ export class Calculator {
       mars: this.expectancy - planetAge.mars, 
       jupiter: this.expectancy - planetAge.jupiter, 
     };
-    console.log(planetExpectancy);
+    
     return planetExpectancy;
   }
+
 }
 
 const age = 34;
@@ -37,9 +38,6 @@ const expectancy = 80;
 const calculator = new Calculator(age, expectancy);
 const planetAge = calculator.planetAgeCalculator();
 const planetExpectancy = (planetAge) => calculator.planetExpectancyCalculator(planetAge);
-
-planetExpectancy(planetAge);
-console.log(planetAge);
 
 // UI
 
