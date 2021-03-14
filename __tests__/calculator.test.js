@@ -16,6 +16,11 @@ describe('Calculator', () => {
 
   test('should calculate life expectency in each planet', () => {
     const planetAge = calculator.planetAgeCalculator();
-    expect(calculator.planetExpectancyCalculator(planetAge)).toEqual();
+    expect(calculator.planetExpectancyCalculator(planetAge)).toEqual({
+      mercury: 78 - planetAge.mercury, 
+      venus: 78 - planetAge.venus, 
+      mars: 78 - planetAge.mars, 
+      jupiter: 78 - planetAge.jupiter, 
+    });
   });
 });
