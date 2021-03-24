@@ -11,16 +11,20 @@ describe('Calculator', () => {
   });
 
   test('should create a planet calculator returning your planet age', () => {
-    expect(calculator.planetAgeCalculator()).toEqual({ mercury:32/.24, venus:32/.64, mars:32/1.88, jupiter: 32/11.86 });
+    expect(calculator.planetAgeCalculator()).toEqual({ mercury: 133.33333333333334, venus: 50, mars: 17.02127659574468, jupiter: 2.69814502529511 });
   }); 
 
   test('should calculate life expectency in each planet', () => {
     const planetAge = calculator.planetAgeCalculator();
     expect(calculator.planetExpectancyCalculator(planetAge)).toEqual({
-      mercury: 80 - planetAge.mercury, 
-      venus: 80 - planetAge.venus, 
-      mars: 80 - planetAge.mars, 
-      jupiter: 80 - planetAge.jupiter, 
+      mercury: -53.33333333333334, 
+      venus: 30, 
+      mars: 62.97872340425532, 
+      jupiter: 77.3018549747049, 
     });
   });
+
+  //test ('If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy', () => {
+  
 });
+
