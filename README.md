@@ -34,6 +34,9 @@ This is my indepentent project to showcase the lesson learned on the past couple
 
 ## Known Bugs
 * No known bugs
+
+## Notes
+* [Math.sign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign) returns a positive or negative number 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta
