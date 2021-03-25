@@ -28,11 +28,10 @@ describe('Calculator', () => {
     });
   });
 
-  test('If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy', () => {    
+  test('If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy', () => {
+    const planetExpectancy = calculator.planetExpectancyCalculator(calculator.planetAgeCalculator());  
     expect(calculator.hasUserSurpassedLifeExpectancy(planetExpectancy)).toEqual({
-      mercury: -53.33333333333334, 
-      venus: 30, 
-      mars: 62.97872340425532, 
-      jupiter: 77.3018549747049,
+      mercury: "You're 53.33333333333334 years past your life expectancy on mercury",
+    });
   });  
 });
