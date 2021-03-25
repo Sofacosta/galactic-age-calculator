@@ -1,11 +1,13 @@
 # Galactic Age Calculator  
-#### Independent project #5 for Epicodus
+## Independent project #5 for Epicodus
 #### Project initiated: 03-11-2021
+#### Project modified: 03-24-2021
 #### By Sofia Acosta
 ## Project Description
 This is my indepentent project to showcase the lesson learned on the past couple of weeks: Test Driven Development and Environment with Javascript. This is an application that determines a user's age based on a planet's solar years.    
  
 ## Technologies Used
+```
 * HTML5 
 * Javascript ES6
 * CSS
@@ -20,16 +22,16 @@ This is my indepentent project to showcase the lesson learned on the past couple
 * Jest 24.9.0
 * Node Package Manager 6.14.9
 * webpack 4.39.3
-
-
+```
 ## Set up / Installation requirements
-* Download a .zip copy of this repository: https://github.com/Sofacosta/galactic-age-calculator by clicking the green "code" button. 
-* Launch the index.html file into your browser
- 
-OR
- 
-* Open your terminal and navigate to the folder where you would like to save this project
-* Clone this repository in your terminal: $ git clone https://github.com/Sofacosta/galactic-age-calculator
+* Open the terminal in your machine
+* Navigate to the directory where you would like to save this project 
+* Clone the project with $ git clone https://github.com/Sofacosta/galactic-age-calculator
+* Recreate this project's environment in the root level of your browser with $ npm install
+* Create a file to store variables you want to keep secret $ touch .env  
+* Create production environment with terminal command $ npm run build   
+* Test application with $ npm test    
+
 ## Known Bugs
 * No known bugs
 ## License
