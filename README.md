@@ -1,7 +1,7 @@
 # Galactic Age Calculator  
 ## Independent project #5 for Epicodus
 #### Project initiated: 03-11-2021
-#### Project modified: 03-24-2021
+#### Project modified: 03-26-2021
 #### By Sofia Acosta
 ## Project Description
 This is my indepentent project to showcase the lesson learned on the past couple of weeks: Test Driven Development and Environment with Javascript. This is an application that determines a user's age based on a planet's solar years.    
@@ -33,7 +33,8 @@ This is my indepentent project to showcase the lesson learned on the past couple
 * Test application with $ npm test    
 
 ## Known Bugs
-* No known bugs
+* UI is not connected. 
+* Buisness logic works. 
 
 ## Notes
 * [Math.sign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign) returns a positive or negative number 
